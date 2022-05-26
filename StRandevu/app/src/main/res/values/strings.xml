@@ -17,5 +17,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam maecenas mi non se
 
 Forgot Password ?
 </string>
+    <string name="passwords_d">
+
+Passwords Do Not Match
+</string>
 
 </resources>

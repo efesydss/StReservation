@@ -11,6 +11,17 @@
         </item>
 
     </style>
+    <style name="passwords_d">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #C81C1C
+        </item>
+
+    </style>
 
     <style name="lorem_ipsum">
 

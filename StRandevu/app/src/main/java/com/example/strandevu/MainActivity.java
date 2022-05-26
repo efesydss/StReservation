@@ -20,14 +20,15 @@ public class MainActivity extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "SignUp Çalıştı", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this,SignUpActivity.class));
+                //finish();
             }
         });
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,SignInActivity.class));
-                finish();
+                //finish();
             }
         });
     }
