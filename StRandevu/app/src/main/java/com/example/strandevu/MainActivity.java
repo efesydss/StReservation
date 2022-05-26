@@ -2,6 +2,7 @@ package com.example.strandevu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -25,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "SignIn Çalıştı", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this,SignInActivity.class));
+                finish();
             }
         });
     }

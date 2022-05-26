@@ -4,4 +4,18 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam maecenas mi non sed ut odio. Non, justo, sed facilisi et. Eget viverra urna, vestibulum egestas faucibus egestas. Sagittis nam velit volutpat eu nunc.\n
 </string>
+    <string name="welcome_bac">
+
+Welcome Back
+</string>
+
+    <string name="lorem_ipsum">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam maecenas mi non sed ut odio. Non, justo, sed facilisi et.
+</string>
+    <string name="forgot_pass">
+
+Forgot Password ?
+</string>
+
 </resources>

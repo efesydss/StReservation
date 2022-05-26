@@ -23,4 +23,28 @@
         </item>
 
     </style>
+
+    <style name="forgot_pass">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #2D2626
+        </item>
+
+    </style>
+
+    <style name="welcome_bac">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:textColor">
+            #464444
+        </item>
+
+    </style>
 </resources>
