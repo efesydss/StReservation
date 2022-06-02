@@ -19,6 +19,6 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         //getSupportFragmentManager().beginTransaction().add(R.id.fragmenttutucu,new fragmentClass()).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.fragmentTutucu,new fragmentClass()).commit();
-        
+
     }
 }
